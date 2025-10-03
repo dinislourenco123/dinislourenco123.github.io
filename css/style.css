@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2C3E50;
+    /*cor de fundo cabeçalho*/
+    color: white;
+    /*cor do texto*/
+    text-align: center;
+    /*centra o texto*/
+}
+
+header nav ul li {
+    display: inline;
+    /*inline para os itens do menu*/
+    list-style-type: none;
+    /*remover os marcadores do menu*/
+
+}
+
+header nav ul li a {
+    color: white;
+    /*cor dos marcadores do menu*/
+    text-decoration: none;
+    /*cor dos marcadores do menu*/
+    font-weight: bold;
+    /*cor dos marcadores do menu*/
+    margin: 0 15px;
+    /*separação entre os marcadores do menu*/
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    /*quando o cursor passa por cima do marcador, muda de cor*/
+    color: #1abc9c;
+
+}
+
+header h1 {
+    color: white;
+    /*cor do texto*/
+}
+
+main {
+    margin: 0 20px;
+}
+
+main ul {
+    list-style-type: square;
+    padding-left: 15px;
+}
+
+footer {
+    background-color: #2C3E50;
+    /*cor de fundo cabeçalho*/
+    color: white;
+    /*cor do texto*/
+    text-align: center;
+    /*centra o texto*/
+    padding: 30px;
+}
+
+footer p {
+    color: white;
+    /*cor dos marcadores do menu*/
+    text-decoration: none;
+    /*cor dos marcadores do menu*/
+    font-weight: bold;
+    /*cor dos marcadores do menu*/
+}
+
+footer a {
+    color: white;
+    /*cor dos marcadores do menu*/
+    text-decoration: none;
+    /*cor dos marcadores do menu*/
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /*fonte de todas as letras da página*/
+}
+
+main h2 {
+    border-bottom: solid 2px #1abc9c;
+    /*cor dos titulos de cada campo*/
+    color: #1abc9c;
+    /**/
+    margin: 20px auto;
+}
+
+main h3 {
+    color: #2980B9;
+    margin: 20px auto;
+}
+
+#sobre img {
+    width: 200px;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 50%;
+}
+
+main thead {
+    background-color: #2980B9;
+    color: white;
+    font-weight: bold;
+}
+
+main table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+main td {
+    border: solid 1px grey;
+    padding: 10px;
+}
+
+main p.descricao {
+    text-align: center;
+    /*centra o texto*/
+}
